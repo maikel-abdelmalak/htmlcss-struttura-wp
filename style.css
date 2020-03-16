@@ -87,10 +87,7 @@ body{
 
 .right-menu{
     float: right;
-    background-color: white;
     width: 23%;
-    margin-top: 15px;
-    padding: 15px;
 }
 main::after {
 content: "";
@@ -114,4 +111,10 @@ footer i  {
     margin-top: 15px;
     font-size: 35px;
     padding: 15px;
+}
+
+.widget{
+    padding: 10px;
+    background-color: white;
+    margin-top:15px;
 }
