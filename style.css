@@ -11,7 +11,6 @@ body{
     width: 70%;
     height: 100%;
     margin: 10px auto;
-
 }
 
 .sfondo {
@@ -54,15 +53,65 @@ body{
 }
 
 .link{
-    margin-left: 100px;
+    text-align: center;
 }
 
-.menu div {
+.link div {
     display: inline-block;
     padding: 10px;
 }
+
 .menu a {
     text-decoration: none;
     color: white;
     padding: 10px;
+}
+
+.left-menu{
+    float: left;
+    width: 15%;
+    background-color: white;
+    margin-top: 15px;
+    margin-right: 2%;
+    padding: 15px;
+}
+
+.center {
+    float: left;
+    background-color: white;
+    width: 58%;
+    margin-top: 15px;
+    margin-right: 2%;
+    padding: 15px;
+}
+
+.right-menu{
+    float: right;
+    background-color: white;
+    width: 23%;
+    margin-top: 15px;
+    padding: 15px;
+}
+main::after {
+content: "";
+display: table;
+clear: both;
+}
+
+footer{
+    text-align: center;
+    margin: 15px 0;
+    background-color: white;
+    padding: 15px;
+}
+
+footer p{
+    padding: 5px;
+    border-bottom: 2px solid #555
+}
+
+footer i  {
+    margin-top: 15px;
+    font-size: 35px;
+    padding: 15px;
 }
